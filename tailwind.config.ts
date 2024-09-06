@@ -7,13 +7,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container:{
+        center:true,
+        padding: '2rem',
+        screens:{
+          xs:'780px',
+        },
       },
-    },
-  },
+   },
   plugins: [],
 };
 export default config;
